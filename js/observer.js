@@ -30,7 +30,7 @@ Observer.prototype = {
     }
 }
 
-function observe(data) {
+function observe(data, vm) {
     if (!data || typeof data !== 'object') {
         return;
     }
